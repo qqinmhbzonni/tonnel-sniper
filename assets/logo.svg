@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0A0C0E"/>
+  
+  <!-- Tunnel aperture: angular nested frames suggesting depth -->
+  <polygon points="128,28 204,64 228,128 204,192 128,228 52,192 28,128 52,64" fill="none" stroke="#E6E9EC" stroke-width="3"/>
+  <polygon points="128,52 186,80 206,128 186,176 128,204 70,176 50,128 70,80" fill="none" stroke="#E6E9EC" stroke-width="2" opacity="0.7"/>
+  <polygon points="128,76 168,96 182,128 168,160 128,180 88,160 74,128 88,96" fill="none" stroke="#E6E9EC" stroke-width="2" opacity="0.45"/>
+  
+  <!-- Aperture cut: angular wedge cuts for stencil feel -->
+  <polygon points="128,28 204,64 128,80 52,64" fill="#0A0C0E" stroke="#FF5A1F" stroke-width="2"/>
+  <polygon points="228,128 204,192 176,128 204,64" fill="#0A0C0E" stroke="#FF5A1F" stroke-width="2"/>
+  <polygon points="128,228 52,192 128,176 204,192" fill="#0A0C0E" stroke="#FF5A1F" stroke-width="2"/>
+  <polygon points="28,128 52,64 80,128 52,192" fill="#0A0C0E" stroke="#FF5A1F" stroke-width="2"/>
+  
+  <!-- Crosshair reticle centered -->
+  <line x1="128" y1="88" x2="128" y2="118" stroke="#7CFF6B" stroke-width="3"/>
+  <line x1="128" y1="138" x2="128" y2="168" stroke="#7CFF6B" stroke-width="3"/>
+  <line x1="88" y1="128" x2="118" y2="128" stroke="#7CFF6B" stroke-width="3"/>
+  <line x1="138" y1="128" x2="168" y2="128" stroke="#7CFF6B" stroke-width="3"/>
+  
+  <!-- Center dot -->
+  <rect x="124" y="124" width="8" height="8" fill="#7CFF6B"/>
+  
+  <!-- Corner crosshair ticks - detection brackets -->
+  <polyline points="88,108 88,88 108,88" fill="none" stroke="#E6E9EC" stroke-width="2.5"/>
+  <polyline points="148,88 168,88 168,108" fill="none" stroke="#E6E9EC" stroke-width="2.5"/>
+  <polyline points="168,148 168,168 148,168" fill="none" stroke="#E6E9EC" stroke-width="2.5"/>
+  <polyline points="108,168 88,168 88,148" fill="none" stroke="#E6E9EC" stroke-width="2.5"/>
+  
+  <!-- Speed lines / velocity indicators -->
+  <line x1="34" y1="100" x2="46" y2="100" stroke="#FF5A1F" stroke-width="2"/>
+  <line x1="34" y1="128" x2="42" y2="128" stroke="#FF5A1F" stroke-width="2"/>
+  <line x1="34" y1="156" x2="46" y2="156" stroke="#FF5A1F" stroke-width="2"/>
+  
+  <line x1="210" y1="100" x2="222" y2="100" stroke="#FF5A1F" stroke-width="2"/>
+  <line x1="214" y1="128" x2="222" y2="128" stroke="#FF5A1F" stroke-width="2"/>
+  <line x1="210" y1="156" x2="222" y2="156" stroke="#FF5A1F" stroke-width="2"/>
+  
+  <!-- Top and bottom velocity dashes -->
+  <line x1="108" y1="22" x2="108" y2="34" stroke="#7CFF6B" stroke-width="2"/>
+  <line x1="128" y1="20" x2="128" y2="30" stroke="#7CFF6B" stroke-width="2"/>
+  <line x1="148" y1="22" x2="148" y2="34" stroke="#7CFF6B" stroke-width="2"/>
+  
+  <line x1="108" y1="222" x2="108" y2="234" stroke="#7CFF6B" stroke-width="2"/>
+  <line x1="128" y1="226" x2="128" y2="236" stroke="#7CFF6B" stroke-width="2"/>
+  <line x1="148" y1="222" x2="148" y2="234" stroke="#7CFF6B" stroke-width="2"/>
+  
+  <!-- Terminal stencil marks -->
+  <rect x="44" y="36" width="16" height="3" fill="#7CFF6B"/>
+  <rect x="196" y="217" width="16" height="3" fill="#7CFF6B"/>
+</svg>
